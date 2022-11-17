@@ -1,7 +1,7 @@
 -- import: fpm
 
--- fpm.package: priyanka9634.github.io/www.yadavpriyanka.com
-download-base-url: https://raw.githubusercontent.com/priyanka9634/www.yadavpriyanka.com/main
+-- fpm.package: priyanka9634.github.io/yadavpriyanka
+download-base-url: https://raw.githubusercontent.com/priyanka9634/yadavpriyanka/main
 
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
 
