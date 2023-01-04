@@ -1,57 +1,125 @@
 -- import: priyanka9634.github.io/yadavpriyanka/assets
+-- import: fifthtry.github.io/caffeine-resume as caffeine
+-- import: fifthtry.github.io/resume as r
+
+
+-- r.resume john-doe: 
+
+-- john-doe.basic: Priyanka Yadav
+label: FTD Developer
+email: priyankayadav993521@gmail.com
+phone: 9336055583
+url: https://yadavpriyanka.com
+maritalStatus: Single
+dateOfBirth: 03rd may 1998
+summary: I’m a FTD developer who can build apps from the ground up. I’ve worked mostly at startups. I am a very product focussed developer who prioritizes user feedback first and foremost. I’m generally very flexible when investigating new roles.
+image: $assets.files.profile.png
+
+-- john-doe.location: Banglore
+postalCode: 560076
+city: Karnataka
+countryCode: IN
+region: India
+
+-- john-doe.profile: Twitter
+username: @Priyanka9628
+url: https://twitter.com/Priyanka9628
+
+-- john-doe.work: Component
+position: FTD Developer
+url: /
+startDate: April, 2022
+endDate: Present
+location: Bangalore
+summary: Reusable components, themes, templates
+
+-- john-doe.certificate: Python
+date: Dec-2019
+issuer: Udemy
+url: /
+
+-- john-doe.award: Dancing
+date: April-2018
+awarder: Dance Champ
+summary: Received for best dance. 
+
+-- john-doe.volunteer: Hospitality
+position:  Lead volunteer
+url: /
+startDate: Oct 2018
+endDate: Dec 2018
+summary: Service of welcoming and receiving guests.
 
 
 
--- ds.page: Welcome to your [FPM site](https://fpm.dev/)
 
-FPM Blank Package Template Repo
+-- john-doe.reference: Ganesh Salunke
+reference: Ganesh is a lead Frontend developer at FifthTry
+phone-no: 9987915037
+email-id: ganesh@fifthry.com
+position: Lead Frontend Developer
+company: FifthTry Pvt. Ltd.
 
-🧑‍🚀 **Seasoned traveler?** update this file. Enjoy!
+-- john-doe.project: Social App
+description: I have made this project using react and node.js.In this project user first have to login themself using email and password. After login they will redirect to home page,where they can see their friends posts.Also they can like and comment on their post.
+keyword: React,Node JS
+startDate: Aug 2017
+endDate: May 2018
+url: /
+role: Contributor 
+entity: Node.org
+type: Server-side Application
+
+-- john-doe.education: Shri Ramswaroop Memorial Univdersity
+url: /
+area: Bachelors of Technology
+studyType: Graduation
+startDate: Aug-2016
+endDate: July-2020
+score: 8.95
+courses: Computer Science
+
+-- john-doe.skill: Frontend
+
+--- keywords: HTML / JSX
+level: expert
+
+--- keywords: SCSS / CSS 
+level: beginner
+
+--- keywords: Javascript / React
+level: advance
+
+-- john-doe.skill: Backend
+
+--- keywords: Python
+level: competent
+
+--- keywords: Postgres
+level: expert
+
+--- keywords: mysql
+level: expert
+
+-- john-doe.language: English
+fluency: advance
+
+-- john-doe.language: Hindi
+fluency: advance
 
 
---- ds.image: doc-site
-src: $assets.files.doc-site-example.png
-width: fill
+-- john-doe.interest: Travel
+keyword: Reading
+
+-- john-doe.interest: Food
+keyword: Noodles
 
 
---- ds.h1: 🚀 Project Structure
-
-Inside of your FPM project, you'll see the following folders and files:
-
-
---- ds.code:
-lang:
-
-/
-├── .build/
-│   └── index.html
-├── .packages/
-│   └── fifthtry.github.io/
-│   	└── All downloaded dependencies
-│   	
-├── FPM.ftd
-├── index.ftd
-└── README.md
+-- ds.page:
+widthfill: true
 
 
 
---- ds.h1: 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
-
---- ds.code:
-lang:
-
-=======================================================================
-| Command                | Action                                     |
-| :--------------------- | :----------------------------------------- |
-| fpm build              | FPM builder installs all `FPM` dependencies|
-| fpm serve              | Starts local dev server at available port  |
-|                        | `localhost:8000`                           |
-=======================================================================
-
-
---- ds.h1: 👀 Want to learn more?
-
-Feel free to check [our documentation](https://fpm.dev/) or jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
+-- caffeine.show-resume:
+resume: $john-doe

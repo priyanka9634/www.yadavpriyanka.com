@@ -4,5 +4,7 @@
 download-base-url: https://raw.githubusercontent.com/priyanka9634/yadavpriyanka/main
 
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
-
+-- fpm.dependency: fifthtry.github.io/resume
+-- fpm.dependency: fifthtry.github.io/caffeine-resume
+-- fpm.dependency: priyanka9634.github.io/yadavpriyanka/FPM
 -- fpm.auto-import: ds
